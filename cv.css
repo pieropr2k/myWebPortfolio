@@ -322,13 +322,17 @@ div[class^="section-"] .title-section .line-title {
     transition: 0.5s;
   }
   .box:nth-child(1) .imgBx .imgContent{
-    background-image: url('./public/proyectoPOOGUI/proyectpoo.JPG');
+    background-image: url('./public/movieCartApp/movie-cart-app.JPG');
+    background-position: top right;
   }
   .box:nth-child(2) .imgBx .imgContent{
+    background-image: url('./public/proyectoPOOGUI/proyectpoo.JPG');
+  }
+  .box:nth-child(3) .imgBx .imgContent{
     background-image: url('./public/descentralizedTaskApp/descentralized-taskapp.JPG');
     background-position: center center;
   }
-  .box:nth-child(3) .imgBx .imgContent{
+  .box:nth-child(4) .imgBx .imgContent{
     background-image: url('./public/Rproyect1/r-proyect1.JPG');
   }
 
@@ -402,9 +406,7 @@ div[class^="section-"] .title-section .line-title {
     margin-top: 20px;
 }
 @media screen and (max-width: 690px){
-    /*IMG*/
-    
-    .box:nth-child(1) .content {
+    .box:nth-child(2) .content {
         height: 80px;
     }
     .box:hover .content {
@@ -485,11 +487,11 @@ div[class^="section-"] .title-section .line-title {
     }
 }
 
-@media screen and (max-width: 300px){
+@media screen and (max-width: 295px){
     .mine_img {
         height: 210px;
     }
-    .box:nth-child(1) .content {
+    .box:nth-child(2) .content {
         height: 100px;
     }
     .box:hover .content {
